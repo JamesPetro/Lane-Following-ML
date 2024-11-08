@@ -2,7 +2,6 @@
 import os
 import numpy as np
 
-
 from qvl.qlabs import QuanserInteractiveLabs
 from qvl.qcar import QLabsQCar
 from qvl.free_camera import QLabsFreeCamera

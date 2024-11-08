@@ -1,11 +1,3 @@
-''' lab2_lane_following.py
-
-This walkthrough covers the topics of camera calibration,
-feature detection, and lane following
-
-'''
-
-
 from pal.products.qcar import QCarCameras
 from pal.utilities.vision import Camera2D
 from pal.products.qcar import QCar
