@@ -94,15 +94,13 @@ try:
 													lowerBounds=np.array([10, 0, 0]),
 													upperBounds=np.array([40, 255, 255]))
 		
-
-		
         #----------------------------------------#
 
 		# Display the RGB (Original) as well as the Binary in 1/4th resolution for speed
-		cv2.imshow('crop rgB image', cv2.resize(croppedRGB, (410, 205)))
+		# cv2.imshow('crop rgB image', cv2.resize(croppedRGB, (410, 205)))
 		cv2.imshow('My Binary image', cv2.resize(binaryImage, (410, 75)))
-
-
+		# cv2.imshow('My Binary image', cv2.resize(binaryImage, (224, 224)))
+		
         #---- 3.1 CALCULATE STEERING CONTROL ----#
 		
 		slope, intercept = ImageProcessing.find_slope_intercept_from_binary(binary=binaryImage)
